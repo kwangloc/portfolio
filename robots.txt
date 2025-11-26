@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://kwangloc.github.io/portfolio/sitemap.xml
