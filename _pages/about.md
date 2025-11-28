@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Anh.
+Hi world, this is Anh :)
 
 Testing
 Testing
