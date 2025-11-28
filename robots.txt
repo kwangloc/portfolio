@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kwangloc.github.io/portfolio/sitemap.xml
+Sitemap: /kwangloc.github.io/portfolio/sitemap.xml
