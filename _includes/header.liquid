@@ -58,6 +58,18 @@
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+          {% if site.cv_pdf %}
+            <!-- CV PDF Link -->
+            {% comment %}
+              code gotten from https://github.com/alshedivat/al-folio/issues/895
+            {% endcomment %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer">
+                CV
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          {% endif %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
               {% if p.dropdown %}
