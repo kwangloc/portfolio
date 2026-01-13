@@ -4,7 +4,7 @@ title: About
 # nav: true
 # nav_order: 1
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Subtitle 1
 
 profile:
   align: right
@@ -29,11 +29,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi world, this is Anh :]
+Modify this section in About.md
 
-Testing
-Testing
-Testing
-Testing
-Testing
-Testing
+Sample 
+
+Sample 
+
+Sample 
+
+Sample 
+
+Sample 
+
